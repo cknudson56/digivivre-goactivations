@@ -12,18 +12,6 @@
 
 <body>
 
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="three columns">
-          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-        </div>
-        <div class="nine columns">
-          <?php wp_nav_menu(array(
-            'theme_location' => 'header-menu',
-            'container-class' => 'menu-header'
-            ));
-          ?>
-        </div>
-
-  </header>
+<header>
+  <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+</header>
