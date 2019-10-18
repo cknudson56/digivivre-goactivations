@@ -21,23 +21,29 @@
 
 <div>
   <!--Small Banner Img Widget-->
+  <?php dynamic_sidebar('small-banner-home'); ?>
 </div>
 
 <div>
   <!--Service Brief Widgets-->
+  <?php dynamic_sidebar('service-brief-home'); ?>
 </div>
 
 <div>
-  <!--Work Brands Slider Widget-->
+  <!--Work Brands Slider Widget (Need to ask Dawne about brands and case studies)-->
+  <?php dynamic_sidebar(''); ?>
 </div>
 
 <div>
   <!--Img Widget-->
+  <?php dynamic_sidebar('left-img-home'); ?>
   <!-- Contact Brief Text Widget-->
+  <?php dynamic_sidebar('contact-brief-home'); ?>
 </div>
 
 <div>
-  <!--Feature Posts/Case Studies Widget-->
+  <!--Feature Posts/Case Studies Widget (Need to ask Dawne about brands and case studies)-->
+  <?php dynamic_sidebar(''); ?>
 </div>
 
 <?php get_footer(); ?>
