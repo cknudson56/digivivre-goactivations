@@ -27,6 +27,13 @@ function blank_widgets_init() {
 }
 add_action('widgets_init', 'blank_widgets_init');
 
+//Logo in the header
+$custom_image_header = array(
+  'width' => 150,
+  'height' => 90,
+  'uploads' => true,
+);
+add_theme_support('custom-header', $custom_image_header)
 
 
 ?>
