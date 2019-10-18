@@ -14,6 +14,36 @@ add_action('wp_enqueue_scripts' , 'example_theme_scripts');
 
 //Widget Areas
 function blank_widgets_init() {
+  //Home: Banner Widget
+  register_sidebar(array(
+    'name'          => ('Banner Home'),
+    'id'            => 'banner-home',
+    'description'   => 'Top banner widget area in home page',
+    'before_widget' => '<div class="widget-home widget-top">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: About-Brief Widget
+  register_sidebar(array(
+    'name'          => ('About-Brief Home'),
+    'id'            => 'about-brief-home',
+    'description'   => 'About-Brief widget area in home page',
+    'before_widget' => '<div class="widget-home widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: Right Img Widget
+  register_sidebar(array(
+    'name'          => ('Right Img Home'),
+    'id'            => 'right-img-home',
+    'description'   => 'Right img widget area in Home Page',
+    'before_widget' => '<div class="widget-home widget-top-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Sidebar Widget
   register_sidebar(array(
     'name'          => ('Sidebar'),
@@ -24,7 +54,7 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Left Footer Widget
+  //Footer: Left Widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
     'id'            => 'left-footer',
@@ -34,7 +64,7 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Right Footer Widget
+  //Footer: Right Widget
   register_sidebar(array(
     'name'          => ('Right Footer'),
     'id'            => 'right-footer',
@@ -44,7 +74,7 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Social Widget
+  //Footer: Social Widget
   register_sidebar(array(
     'name'          => ('Social Footer'),
     'id'            => 'social-footer',

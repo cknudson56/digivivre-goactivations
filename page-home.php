@@ -1,12 +1,22 @@
 <?php /*Template Name: Home Page Template*/ ?>
 <?php get_header(); ?>
+
 <div>
-  <!--Banner Img Widget-->
+  <div>
+    <!--Banner Img Widget-->
+    <?php dynamic_sidebar('banner-home'); ?>
+  </div>
 </div>
 
 <div>
-  <!-- About Brief Text Widget-->
-  <!--Img Widget-->
+  <div>
+    <!-- About Brief Text Widget-->
+    <?php dynamic_sidebar('about-brief-home'); ?>
+  </div>
+  <div>
+    <!--Img Widget-->
+    <?php dynamic_sidebar('right-img-home'); ?>
+  </div>
 </div>
 
 <div>
@@ -29,6 +39,5 @@
 <div>
   <!--Feature Posts/Case Studies Widget-->
 </div>
-
 
 <?php get_footer(); ?>
