@@ -39,7 +39,47 @@ function blank_widgets_init() {
     'name'          => ('Right Img Home'),
     'id'            => 'right-img-home',
     'description'   => 'Right img widget area in Home Page',
-    'before_widget' => '<div class="widget-home widget-top-right">',
+    'before_widget' => '<div class="widget-home widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: Small Banner Widget
+  register_sidebar(array(
+    'name'          => ('Small Banner Home'),
+    'id'            => 'small-banner-home',
+    'description'   => 'Small banner widget area in home page',
+    'before_widget' => '<div class="widget-home widget-small-banner">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: Service-Brief Widget
+  register_sidebar(array(
+    'name'          => ('Service-Brief Home'),
+    'id'            => 'service-brief-home',
+    'description'   => 'Service-Brief widget area in home page',
+    'before_widget' => '<div class="widget-home widget-service-brief">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: Left Img Widget
+  register_sidebar(array(
+    'name'          => ('Left Img Home'),
+    'id'            => 'left-img-home',
+    'description'   => 'Left img widget area in Home Page',
+    'before_widget' => '<div class="widget-home widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Home: About-Brief Widget
+  register_sidebar(array(
+    'name'          => ('Contact-Brief Home'),
+    'id'            => 'contact-brief-home',
+    'description'   => 'Contact-Brief widget area in home page',
+    'before_widget' => '<div class="widget-home widget-right">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
