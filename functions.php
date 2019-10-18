@@ -27,6 +27,15 @@ function blank_widgets_init() {
 }
 add_action('widgets_init', 'blank_widgets_init');
 
+//Custom Menus
+function custom_menus(){
+  register_nav_menus(array(
+    'header-menu' => __('Header Menu'),
+    'footer-menu' => __('Footer Menu')
+  ));
+}
+add_action('init', 'custom_menus');
+
 //Logo in the header
 $custom_image_header = array(
   'width' => 150,
