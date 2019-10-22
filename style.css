@@ -66,3 +66,9 @@ p {
 #site-nav {
   width: 70%;
 }
+
+/* -- FOOTER -- */
+.widget-footer h3.widget-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
