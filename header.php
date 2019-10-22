@@ -13,7 +13,7 @@
 <header>
   <div class="container">
     <div class="row">
-      <div id="site-logo" class="one-half column">
+      <div id="site-logo" class="three columns">
         <!--If/else for Logo and Site Title-->
         <?php if(get_header_image() == '') { ?>
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -24,7 +24,7 @@
         }
         ?>
       </div>
-      <div id="site-nav" class="one-half column">
+      <div id="site-nav" class="nine columns">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
