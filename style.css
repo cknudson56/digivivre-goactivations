@@ -74,6 +74,7 @@ p {
 }
 ul#menu-footer-menu {
     font-family: 'Open Sans', sans-serif !important;
+    list-style-type: none;
 }
 #menu-footer-menu li a {
   text-decoration: none;
