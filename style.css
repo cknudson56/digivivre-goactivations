@@ -72,3 +72,10 @@ p {
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
+ul#menu-footer-menu {
+    font-family: 'Open Sans', sans-serif !important;
+}
+#menu-footer-menu li a {
+  text-decoration: none;
+  color: #60c28e
+}
