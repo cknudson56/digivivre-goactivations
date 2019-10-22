@@ -56,3 +56,13 @@ h4, h5, h6 {
 p {
   font-family: 'Open Sans', sans-serif !important;
 }
+
+
+/* -- HEADER -- */
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#site-nav {
+  width: 70%;
+}
