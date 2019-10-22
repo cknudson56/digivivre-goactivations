@@ -8,7 +8,6 @@
    Text Domain: go-activations
 */
 
-
 /*
 Colors
 Lime Green: #aadd73
@@ -18,9 +17,42 @@ Blue: #085c74
 Violet: #0b0737
 
 Fonts
-src: url('fonts/Gilroy-ExtraBold.otf') format('opentype');
-src: url('fonts/Gilroy-Light.otf') format('opentype');
-src: url('fonts/LemonMilk-Bold.otf') format('opentype');
-src: url('fonts/LemonMilk-Light.otf') format('opentype');
-src: url('fonts/LemonMilk-Regular.otf') format('opentype');
+font-family: 'Gilroy-ExtraBold';
+font-family: 'Gilroy-Light';
+font-family: 'LemonMilk-Bold';
+font-family: 'LemonMilk-Light';
+font-family: 'LemonMilk-Regular';
+font-family: 'Open Sans', sans-serif;
 */
+
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'Gilroy-ExtraBold';
+	src: url('fonts/Gilroy-ExtraBold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('fonts/Gilroy-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'LemonMilk-Bold';
+	src: url('fonts/LemonMilk-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'LemonMilk-Light';
+	src: url('fonts/LemonMilk-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'LemonMilk-Regular';
+	src: url('fonts/LemonMilk-Regular.otf') format('opentype');
+}
+h1, h2, h3 {
+  font-family: 'LemonMilk-Light';
+}
+h4, h5, h6 {
+  font-family: 'Gilroy-Light';
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
