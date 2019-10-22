@@ -9,7 +9,7 @@
       <div class="three columns">
         <!-- Navigation -->
         <?php wp_nav_menu(array(
-          'theme_location' => 'footer-company-menu',
+          'theme_location' => 'footer-menu',
           'container-class' => 'menu-footer'
           ));
         ?>
