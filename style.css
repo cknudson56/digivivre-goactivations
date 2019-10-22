@@ -48,11 +48,11 @@ font-family: 'Open Sans', sans-serif;
 	src: url('fonts/LemonMilk-Regular.otf') format('opentype');
 }
 h1, h2, h3 {
-  font-family: 'LemonMilk-Light';
+  font-family: 'LemonMilk-Light' !important;
 }
 h4, h5, h6 {
-  font-family: 'Gilroy-Light';
+  font-family: 'Gilroy-Light' !important;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
