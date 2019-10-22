@@ -8,10 +8,10 @@
 
       <div class="three columns">
         <!--Left Menu Title Widget-->
-        <?php dynamic_sidebar('right-footer'); ?>
+        <?php dynamic_sidebar('rleft-menu-footer'); ?>
         <!-- Navigation -->
         <?php wp_nav_menu(array(
-          'theme_location' => 'left-menu-footer',
+          'theme_location' => 'footer-menu',
           'container-class' => 'menu-footer'
           ));
         ?>
