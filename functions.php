@@ -104,22 +104,22 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Footer: Left Nav Widget
+  //Footer: Middle Left Space Widget
   register_sidebar(array(
-    'name'          => ('Menu Title Footer'),
-    'id'            => 'menu-title-footer',
-    'description'   => 'Menu Title widget area in the footer',
-    'before_widget' => '<div class="widget-footer widget-left">',
+    'name'          => ('Middle Left Footer'),
+    'id'            => 'middle-left-footer',
+    'description'   => 'Middle Left Space widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-middle-left">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //Footer: Right Menu Widget
+  //Footer: Menu Title Widget
   register_sidebar(array(
-    'name'          => ('Right Menu Footer'),
-    'id'            => 'right-menu-footer',
-    'description'   => 'Right Menu widget area in the footer',
-    'before_widget' => '<div class="widget-footer widget-right">',
+    'name'          => ('Menu Title Footer'),
+    'id'            => 'menu-title-footer',
+    'description'   => 'Menu Title widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-menu-title">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'

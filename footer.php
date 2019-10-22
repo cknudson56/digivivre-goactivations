@@ -5,10 +5,10 @@
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
-      
+
       <div class="three columns">
         <!--Middle Left Space-->
-        <div></div>
+        <?php dynamic_sidebar('middle-left-footer'); ?>
       </div>
 
       <div class="three columns">
