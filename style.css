@@ -17,12 +17,12 @@ Blue: #085c74
 Violet: #0b0737
 
 Fonts
-font-family: 'Gilroy-ExtraBold';
-font-family: 'Gilroy-Light';
-font-family: 'LemonMilk-Bold';
-font-family: 'LemonMilk-Light';
-font-family: 'LemonMilk-Regular';
-font-family: 'Open Sans', sans-serif;
+font-family: 'Gilroy-ExtraBold' !important;
+font-family: 'Gilroy-Light' !important;
+font-family: 'LemonMilk-Bold' !important;
+font-family: 'LemonMilk-Light' !important;
+font-family: 'LemonMilk-Regular' !important;
+font-family: 'Open Sans', sans-serif !important;
 */
 
 
