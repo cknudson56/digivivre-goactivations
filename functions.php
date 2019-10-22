@@ -106,9 +106,9 @@ function blank_widgets_init() {
   ));
   //Footer: Left Nav Widget
   register_sidebar(array(
-    'name'          => ('Left Menu Footer'),
-    'id'            => 'left-menu-footer',
-    'description'   => 'Left Menu widget area in the footer',
+    'name'          => ('Menu Title Footer'),
+    'id'            => 'menu-title-footer',
+    'description'   => 'Menu Title widget area in the footer',
     'before_widget' => '<div class="widget-footer widget-left">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',

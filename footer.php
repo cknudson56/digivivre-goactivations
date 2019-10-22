@@ -5,22 +5,21 @@
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
+      
+      <div class="three columns">
+        <!--Middle Left Space-->
+        <div></div>
+      </div>
 
       <div class="three columns">
-        <!--Left Menu Title Widget-->
-        <?php dynamic_sidebar('left-menu-footer'); ?>
+        <!--Menu Title Widget-->
+        <?php dynamic_sidebar('menu-title-footer'); ?>
         <!-- Navigation -->
         <?php wp_nav_menu(array(
           'theme_location' => 'footer-menu',
           'container-class' => 'menu-footer'
           ));
         ?>
-      </div>
-
-      <div class="three columns">
-        <!--Right Menu Title Widgett-->
-        <?php dynamic_sidebar('right-menu-footer'); ?>
-        <!-- Navigation -->
       </div>
 
       <div class="three columns">
