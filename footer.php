@@ -8,7 +8,7 @@
 
       <div class="three columns">
         <!--Left Menu Title Widget-->
-        <?php dynamic_sidebar('rleft-menu-footer'); ?>
+        <?php dynamic_sidebar('left-menu-footer'); ?>
         <!-- Navigation -->
         <?php wp_nav_menu(array(
           'theme_location' => 'footer-menu',
