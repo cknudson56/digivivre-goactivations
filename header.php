@@ -9,7 +9,8 @@
 
 <body>
 
-<header class="container">
+<header>
+  <div class="container">
   <div class="row">
   <div id="site-logo" class="one-half column">
     <!--If/else for Logo and Site Title-->
@@ -30,5 +31,6 @@
       ));
     ?>
   </div>
+</div>
 </div>
 </header>
