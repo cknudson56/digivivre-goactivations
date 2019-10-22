@@ -9,8 +9,9 @@
 
 <body>
 
-<header>
-  <div id="site-logo">
+<header class="container">
+  <div class="row">
+  <div id="site-logo" class="one-half column">
     <!--If/else for Logo and Site Title-->
     <?php if(get_header_image() == '') { ?>
       <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -21,7 +22,7 @@
     }
     ?>
   </div>
-  <div id="site-nav">
+  <div id="site-nav" class="one-half column">
     <!--Navigation-->
     <?php wp_nav_menu(array(
       'theme_location' => 'header-menu',
@@ -29,4 +30,5 @@
       ));
     ?>
   </div>
+</div>
 </header>
