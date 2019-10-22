@@ -131,8 +131,7 @@ add_action('widgets_init', 'blank_widgets_init');
 function custom_menus(){
   register_nav_menus(array(
     'header-menu' => __('Header Menu'),
-    'footer-company-menu' => __('Footer Company Menu')
-    'footer-services-menu' => __('Footer Services Menu')
+    'footer-menu' => __('Footer Menu'),
   ));
 }
 add_action('init', 'custom_menus');

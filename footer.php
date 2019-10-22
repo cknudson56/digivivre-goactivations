@@ -17,11 +17,6 @@
 
       <div class="three columns">
         <!-- Navigation -->
-        <?php wp_nav_menu(array(
-          'theme_location' => 'footer-services-menu',
-          'container-class' => 'menu-footer'
-          ));
-        ?>
       </div>
 
       <div class="three columns">
