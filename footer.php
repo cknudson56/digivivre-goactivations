@@ -9,7 +9,7 @@
       <div class="three columns">
         <!-- Navigation -->
         <?php wp_nav_menu(array(
-          'theme_location' => 'footer-menu',
+          'theme_location' => 'footer-company-menu',
           'container-class' => 'menu-footer'
           ));
         ?>
@@ -17,7 +17,11 @@
 
       <div class="three columns">
         <!-- Navigation -->
-        
+        <?php wp_nav_menu(array(
+          'theme_location' => 'footer-services-menu',
+          'container-class' => 'menu-footer'
+          ));
+        ?>
       </div>
 
       <div class="three columns">
@@ -27,13 +31,13 @@
         <?php dynamic_sidebar('social-footer'); ?>
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="twelve columns">
-      <!--Copyright-->
-      <p>&copy; Site created by DigiVivre 2019</p>
-    <div>
+    <div class="row">
+      <div class="twelve columns">
+        <!--Copyright-->
+        <p>&copy; Site created by DigiVivre 2019</p>
+      </div>
+    </div>
   </div>
 </footer>
 
