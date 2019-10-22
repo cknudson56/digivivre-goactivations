@@ -1,17 +1,17 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="three columns">
+      <div class="four columns">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
 
-      <div class="three columns">
+      <div class="two columns">
         <!--Middle Left Space-->
         <?php dynamic_sidebar('middle-left-footer'); ?>
       </div>
 
-      <div class="three columns">
+      <div class="three columns footer-pad-top ">
         <!--Menu Title Widget-->
         <?php dynamic_sidebar('menu-title-footer'); ?>
         <!-- Navigation -->
@@ -22,7 +22,7 @@
         ?>
       </div>
 
-      <div class="three columns">
+      <div class="three columns footer-pad-top ">
         <!--Contact Widget-->
         <?php dynamic_sidebar('right-footer'); ?>
         <!--Social Widget-->

@@ -15,6 +15,7 @@ Green: #60c28e
 Teal: #14a6a6
 Blue: #085c74
 Violet: #0b0737
+Light Grey for Footer: #A4BCBC
 
 Fonts
 font-family: 'Gilroy-ExtraBold' !important;
@@ -68,9 +69,16 @@ p {
 }
 
 /* -- FOOTER -- */
+footer {
+    background-color: #0b0737;
+}
+footer p {
+  color: #A4BCBC;
+}
 .widget-footer h3.widget-title {
     font-size: 1.5rem;
     letter-spacing: 1px;
+    color: #14a6a6;
 }
 ul#menu-footer-menu {
     font-family: 'Open Sans', sans-serif !important;
@@ -79,4 +87,7 @@ ul#menu-footer-menu {
 #menu-footer-menu li a {
   text-decoration: none;
   color: #60c28e
+}
+.three.columns.footer-pad-top {
+    padding-top: 25px;
 }
