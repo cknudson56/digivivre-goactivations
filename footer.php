@@ -7,15 +7,19 @@
       </div>
 
       <div class="three columns">
+        <!--Left Menu Title Widget-->
+        <?php dynamic_sidebar('right-footer'); ?>
         <!-- Navigation -->
         <?php wp_nav_menu(array(
-          'theme_location' => 'footer-menu',
+          'theme_location' => 'left-menu-footer',
           'container-class' => 'menu-footer'
           ));
         ?>
       </div>
 
       <div class="three columns">
+        <!--Right Menu Title Widgett-->
+        <?php dynamic_sidebar('right-menu-footer'); ?>
         <!-- Navigation -->
       </div>
 

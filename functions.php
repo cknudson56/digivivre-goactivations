@@ -104,6 +104,26 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Footer: Left Nav Widget
+  register_sidebar(array(
+    'name'          => ('Left Menu Footer'),
+    'id'            => 'left-menu-footer',
+    'description'   => 'Left Menu widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Footer: Right Menu Widget
+  register_sidebar(array(
+    'name'          => ('Right Menu Footer'),
+    'id'            => 'right-menu-footer',
+    'description'   => 'Right Menu widget area in the footer',
+    'before_widget' => '<div class="widget-footer widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Footer: Right Widget
   register_sidebar(array(
     'name'          => ('Right Footer'),
