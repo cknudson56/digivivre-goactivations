@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row section-margins">
     <div class="six columns">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
@@ -27,7 +27,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row section-margins">
     <div class="twelve columns">
       <!--Service Brief Widgets-->
       <?php dynamic_sidebar('service-brief-home'); ?>
@@ -36,10 +36,10 @@
 
   <div class="row">
     <!--Work Brands Slider Widget (Need to ask Dawne about brands and case studies)-->
-    <?php dynamic_sidebar(''); ?>
+    <?php dynamic_sidebar('brands-home'); ?>
   </div>
 
-  <div class="row">
+  <div class="row section-margins">
     <div class="six columns">
       <!--Img Widget-->
       <?php dynamic_sidebar('left-img-home'); ?>

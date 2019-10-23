@@ -64,6 +64,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Home: Brands Slider Widget
+  register_sidebar(array(
+    'name'          => ('Brands Slider Home'),
+    'id'            => 'brands-home',
+    'description'   => 'Brands Slider widget area in home page',
+    'before_widget' => '<div class="widget-home widget-brands">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Home: Left Img Widget
   register_sidebar(array(
     'name'          => ('Left Img Home'),
