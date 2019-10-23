@@ -57,6 +57,13 @@ h4, h5, h6 {
 p {
   font-family: 'Open Sans', sans-serif !important;
 }
+.title-box {
+  width: 25px; 
+  height: 50px;
+  background-color: #aadd73;
+  float:left;
+  margin-right: 20px;
+}
 
 
 /* -- HEADER -- */
