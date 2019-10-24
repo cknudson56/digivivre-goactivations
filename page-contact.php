@@ -31,14 +31,15 @@
     </div>
   </div>
 
-<div class="row">
-  <div class="six columns">
-    <!--Address/phone/email Widget-->
-    <?php dynamic_sidebar('left-contact'); ?>
-  </div>
-  <div class="six columns">
-    <!--Google Maps Widget-->
-    <?php dynamic_sidebar('right-contact'); ?>
+  <div class="row">
+    <div class="six columns">
+      <!--Address/phone/email Widget-->
+      <?php dynamic_sidebar('left-contact'); ?>
+    </div>
+    <div class="six columns">
+      <!--Google Maps Widget-->
+      <?php dynamic_sidebar('right-contact'); ?>
+    </div>
   </div>
 </div>
 
