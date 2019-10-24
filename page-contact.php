@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row section-margins">
     <div class="twelve columns">
       <!--Text-->
       <?php
@@ -32,7 +32,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row section-margins">
     <div class="six columns">
       <!--Address/phone/email Widget-->
       <?php dynamic_sidebar('left-contact'); ?>
