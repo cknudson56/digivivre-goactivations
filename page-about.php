@@ -38,8 +38,8 @@
   </div>
 </div>
 
-<div id="sidebar" class="row">
-  <div class="flex-sidebar twelve columns">
+<div id="sidebar">
+  <div class="flex-sidebar">
     <?php get_sidebar(); ?>
   </div>
 </div>

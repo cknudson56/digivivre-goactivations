@@ -94,12 +94,19 @@ div#sidebar {
   flex-wrap: wrap;
 }
 .widget_text.widget-sidebar {
-    padding-top: 3px;
     padding-bottom: 25px;
 }
 .widget_text.widget-sidebar button {
-  border: 3px solid #14a6a6;
-  color: #14a6a6;
+  border: 4px solid #085c74;
+  color: #085c74;
+  background-color: #14a6a6;
+  font-size: 2.5rem;
+  height: 50px;
+}
+.widget_text.widget-sidebar button:hover {
+  border: 4px solid #085c74;
+  color: white;
+  background-color: #085c74;
 }
 
 
