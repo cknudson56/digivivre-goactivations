@@ -1,4 +1,3 @@
-<?php /*Template Name: Contact Page Template*/ ?>
 <?php get_header(); ?>
 
 <div class="container">
@@ -21,24 +20,6 @@
           }
         }
       ?>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="twelve columns">
-      <!--Contact Form Widget-->
-      <?php dynamic_sidebar('contact-form'); ?>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="six columns">
-      <!--Address/phone/email Widget-->
-      <?php dynamic_sidebar('left-contact'); ?>
-    </div>
-    <div class="six columns">
-      <!--Google Maps Widget-->
-      <?php dynamic_sidebar('right-contact'); ?>
     </div>
   </div>
 </div>
