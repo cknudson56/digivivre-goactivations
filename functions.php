@@ -172,7 +172,10 @@ $custom_image_header = array(
   'height' => 90,
   'uploads' => true,
 );
-add_theme_support('custom-header', $custom_image_header)
+add_theme_support('custom-header', $custom_image_header);
+
+//Adds featured imgs to posts
+  add_theme_support('post-thumbnails');
 
 
 ?>
