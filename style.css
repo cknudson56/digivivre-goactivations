@@ -90,9 +90,16 @@ div#sidebar {
 .flex-sidebar {
   display: flex;
   justify-content: space-between;
+  padding: 0 10%;
+  flex-wrap: wrap;
 }
 .widget_text.widget-sidebar {
-    padding-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+.widget_text.widget-sidebar button {
+  border: 3px solid #14a6a6;
+  color: #14a6a6;
 }
 
 
