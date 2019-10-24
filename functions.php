@@ -104,6 +104,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //About: Big Text Widget
+  register_sidebar(array(
+    'name'          => ('Big-Text About'),
+    'id'            => 'bigtext-about',
+    'description'   => 'Big-Text widget area in about page',
+    'before_widget' => '<div class="widget-about widget-bigtext">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Sidebar Widget
   register_sidebar(array(
     'name'          => ('Sidebar'),
