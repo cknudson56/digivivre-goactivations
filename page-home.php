@@ -33,12 +33,14 @@
       <?php dynamic_sidebar('service-brief-home'); ?>
     </div>
   </div>
+</container>
 
   <div class="row">
     <!--Work Brands Slider Widget (Need to ask Dawne about brands and case studies)-->
     <?php dynamic_sidebar('brands-home'); ?>
   </div>
 
+<container>
   <div class="row section-margins">
     <div class="six columns">
       <!--Img Widget-->
