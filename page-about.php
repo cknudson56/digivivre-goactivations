@@ -9,6 +9,7 @@
     </div>
   </div>
 
+<div class="section-margins">
   <div class="row">
     <div class="four columns">
       <div class="title-box"></div>
@@ -34,6 +35,7 @@
       ?>
     </div>
   </div>
+</div>
 
   <div class="row">
     <div class="twelve columns">
