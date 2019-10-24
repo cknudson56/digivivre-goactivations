@@ -39,7 +39,7 @@
 </div>
 
 <div id="sidebar" class="row">
-  <div class="twelve columns">
+  <div class="flex-sidebar twelve columns">
     <?php get_sidebar(); ?>
   </div>
 </div>

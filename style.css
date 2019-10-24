@@ -87,6 +87,14 @@ div#sidebar {
     justify-content: space-between;
     padding: 25px 0 0 0;
 }
+.flex-sidebar {
+  display: flex;
+  justify-content: space-between;
+}
+.widget_text.widget-sidebar {
+    padding-top: 20px;
+}
+
 
 /* -- HEADER -- */
 .header-flex {
