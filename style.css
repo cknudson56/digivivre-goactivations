@@ -67,6 +67,16 @@ p {
 .section-margins {
   margin: 100px 0;
 }
+button {
+    border: 3px solid #60c28e;
+    font-family: 'LemonMilk-Regular' !important;
+    color: #60c28e;
+    border-radius: 0;
+}
+button:hover {
+  background-color: #60c28e;
+  color: white;
+}
 
 /* -- HEADER -- */
 .header-flex {
