@@ -104,6 +104,46 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Contact: Banner Widget
+  register_sidebar(array(
+    'name'          => ('Banner Contact'),
+    'id'            => 'banner-contact',
+    'description'   => 'Top banner widget area in contact page',
+    'before_widget' => '<div class="widget-contact widget-top">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Contact: Contact Form Widget
+  register_sidebar(array(
+    'name'          => ('Contact Form'),
+    'id'            => 'contact-form',
+    'description'   => 'Contact form widget area in contact page',
+    'before_widget' => '<div class="widget-contact widget-form">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Contact: Left Contact Widget
+  register_sidebar(array(
+    'name'          => ('Left Contact'),
+    'id'            => 'left-contact',
+    'description'   => 'Left widget area in contact Page',
+    'before_widget' => '<div class="widget-contact widget-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
+  //Contact: Right Contact Widget
+  register_sidebar(array(
+    'name'          => ('Right Contact'),
+    'id'            => 'right-contact',
+    'description'   => 'Right widget area in contact Page',
+    'before_widget' => '<div class="widget-contact widget-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Footer: Left Widget
   register_sidebar(array(
     'name'          => ('Left Footer'),
