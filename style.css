@@ -86,6 +86,8 @@ div#sidebar {
     display: flex;
     justify-content: space-between;
     padding: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 .flex-sidebar {
   display: flex;
@@ -93,6 +95,7 @@ div#sidebar {
   padding: 0 10%;
   flex-wrap: wrap;
   width: 100%;
+  max-width: 960px;
 }
 .widget_text.widget-sidebar {
     padding-bottom: 25px;
@@ -106,7 +109,7 @@ div#sidebar {
   height: 50px;
 }
 .widget_text.widget-sidebar button:hover {
-  border: 4px solid #085c74;
+  border: 4px solid #085c74 !important;
   background-color: #085c74;
 }
 
