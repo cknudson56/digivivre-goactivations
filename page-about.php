@@ -5,7 +5,7 @@
   <div class="row">
     <div class="twelve columns">
       <!--Banner Img Widget-->
-      <?php dynamic_sidebar('banner-contact'); ?>
+      <?php dynamic_sidebar('banner-about'); ?>
     </div>
   </div>
 
