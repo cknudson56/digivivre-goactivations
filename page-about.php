@@ -44,5 +44,13 @@
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
+      <!--Image Widget-->
+      <?php dynamic_sidebar('bottomextra-about'); ?>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
