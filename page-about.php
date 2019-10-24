@@ -10,7 +10,7 @@
   </div>
 
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns section-margins">
       <!--Text-->
       <?php
         if(have_posts()){
