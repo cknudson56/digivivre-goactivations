@@ -81,6 +81,12 @@ button:hover {
   background-color: #60c28e;
   color: white;
 }
+div#sidebar {
+    background-color: #aadd73;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 0 0;
+}
 
 /* -- HEADER -- */
 .header-flex {
