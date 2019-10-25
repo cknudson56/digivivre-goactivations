@@ -26,11 +26,12 @@
   </div>
 </div>
 
-  <!--<div class="row">
-    <div class="twelve columns">-->
+  <div class="row form-space">
+    <div class="twelve columns form">
       <!--Contact Form Widget-->
       <?php dynamic_sidebar('contact-form'); ?>
-
+    </div>
+  </div>
 
 <div class="container">
   <div class="row section-margins">
