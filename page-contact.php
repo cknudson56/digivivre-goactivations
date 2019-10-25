@@ -24,14 +24,15 @@
       ?>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="twelve columns">
+  <!--<div class="row">
+    <div class="twelve columns">-->
       <!--Contact Form Widget-->
       <?php dynamic_sidebar('contact-form'); ?>
-    </div>
-  </div>
 
+
+<div class="container">
   <div class="row section-margins">
     <div class="six columns">
       <!--Address/phone/email Widget-->
