@@ -118,6 +118,14 @@ ul#menu-footer-menu {
 
 /* -- CONTACT -- */
 /* - Contact Form - */
+.row.form-space {
+    background-color: #14a6a6;
+}
+.widget-contact.widget-form {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
 span.wpcf7-list-item {
   display: block;
 }
