@@ -127,6 +127,9 @@ ul#menu-footer-menu {
     margin: auto;
     padding-top: 25px;
 }
+label, span.wpcf7-form-control.wpcf7-radio {
+    font-family: 'Gilroy-Light' !important;
+}
 span.wpcf7-list-item {
   display: block;
 }
