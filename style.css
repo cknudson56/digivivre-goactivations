@@ -125,6 +125,7 @@ ul#menu-footer-menu {
     max-width: 960px;
     width: 100%;
     margin: auto;
+    padding-top: 25px;
 }
 span.wpcf7-list-item {
   display: block;
@@ -138,6 +139,8 @@ textarea {
 .twelve.columns.send {
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
 
 /* -- SIDEBAR -- */
