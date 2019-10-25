@@ -116,6 +116,12 @@ ul#menu-footer-menu {
     padding-top: 25px;
 }
 
+/* -- CONTACT -- */
+/* - Contact Form - */
+span.wpcf7-list-item {
+  display: block;
+}
+
 /* -- SIDEBAR -- */
 div#sidebar {
     background-color: #aadd73;
