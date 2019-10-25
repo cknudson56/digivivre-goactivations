@@ -121,6 +121,12 @@ ul#menu-footer-menu {
 span.wpcf7-list-item {
   display: block;
 }
+input.wpcf7-text {
+    width: 200px;
+}
+textarea {
+    min-height: 200px !important;
+}
 
 /* -- SIDEBAR -- */
 div#sidebar {
