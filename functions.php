@@ -114,16 +114,6 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-  //About: Bottom Extra Widget
-  register_sidebar(array(
-    'name'          => ('Bottom-Extra About'),
-    'id'            => 'bottomextra-about',
-    'description'   => 'Bottom-Extra widget area in about page',
-    'before_widget' => '<div class="widget-about widget-bottomextra">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-  ));
   //Sidebar Widget
   register_sidebar(array(
     'name'          => ('Sidebar'),

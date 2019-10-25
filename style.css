@@ -81,37 +81,6 @@ button:hover {
   background-color: #60c28e;
   color: white;
 }
-div#sidebar {
-    background-color: #aadd73;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 0 0 0;
-    display: flex;
-    justify-content: center;
-}
-.flex-sidebar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10%;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 960px;
-}
-.widget_text.widget-sidebar {
-    padding-bottom: 25px;
-    text-align: right;
-}
-.widget_text.widget-sidebar button {
-  border: 4px solid #14a6a6;
-  color: white;
-  background-color: #14a6a6;
-  font-size: 2.5rem;
-  height: 50px;
-}
-.widget_text.widget-sidebar button:hover {
-  border: 4px solid #085c74 !important;
-  background-color: #085c74;
-}
 
 
 /* -- HEADER -- */
@@ -145,4 +114,37 @@ ul#menu-footer-menu {
 }
 .three.columns.footer-pad-top {
     padding-top: 25px;
+}
+
+/* -- SIDEBAR -- */
+div#sidebar {
+    background-color: #aadd73;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.flex-sidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 960px;
+}
+.widget_text.widget-sidebar {
+    padding-bottom: 25px;
+    text-align: right;
+}
+.widget_text.widget-sidebar button {
+  border: 4px solid #14a6a6;
+  color: white;
+  background-color: #14a6a6;
+  font-size: 2.5rem;
+  height: 50px;
+}
+.widget_text.widget-sidebar button:hover {
+  border: 4px solid #085c74 !important;
+  background-color: #085c74;
 }
