@@ -127,6 +127,10 @@ input.wpcf7-text {
 textarea {
     min-height: 200px !important;
 }
+.twelve.columns.send {
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* -- SIDEBAR -- */
 div#sidebar {
