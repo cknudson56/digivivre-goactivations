@@ -85,6 +85,9 @@ a {
     color: #60c28e;
     text-decoration: none;
 }
+a {
+    color: #14a6a6;
+}
 .head-margin-top {
 	margin-top: 75px !important;
 }
@@ -182,10 +185,10 @@ ul#menu-footer-menu {
   margin-bottom:20px;
 }
 .contact-link a {
-  color: black;
+  color: black !important;
 }
 .contact-link a:hover {
-  color: #60c28e;
+  color: #60c28e !important;
 }
 /* - Contact Form - */
 .row.form-space {
