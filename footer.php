@@ -6,12 +6,12 @@
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
 
-      <div class="two columns">
+      <div class="one columns">
         <!--Middle Left Space-->
         <?php dynamic_sidebar('middle-left-footer'); ?>
       </div>
 
-      <div class="two columns footer-pad-top ">
+      <div class="three columns footer-pad-top ">
         <!--Menu Title Widget-->
         <?php dynamic_sidebar('menu-title-footer'); ?>
         <!-- Navigation -->
