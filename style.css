@@ -81,18 +81,26 @@ button:hover {
   background-color: #60c28e;
   color: white;
 }
+.head-margin-top {
+	margin-top: 100px;
+}
 
 
 /* -- HEADER -- */
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-}
 #header {
 	position: fixed; /* Fixed position - sit on top of the page */
   top: 0;
   width: 100%; /* Full width */
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+	z-index: 2;
+	background-color: white;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#site-logo {
+	width: 30%;
 }
 #site-nav {
   width: 70%;
