@@ -118,19 +118,25 @@ button:hover {
 a.mega-menu-link {
   font-family: 'Gilroy-Light' !important;
   text-align: center !important;
+  transition: 0.2s;
 }
 
 /* -- FOOTER -- */
+/* Footer Colors
+White: #fbfff7
+Green: #6ad89d
+Teal: #17c4c4
+*/
 footer {
     background-color: #0b0737;
 }
 footer p {
-  color: #A4BCBC;
+  color: #fbfff7;
 }
 .widget-footer h3.widget-title {
     font-size: 1.5rem;
     letter-spacing: 1px;
-    color: #14a6a6;
+    color: #17c4c4;
 }
 ul#menu-footer-menu {
     font-family: 'Open Sans', sans-serif !important;
@@ -138,7 +144,11 @@ ul#menu-footer-menu {
 }
 #menu-footer-menu li a {
   text-decoration: none;
-  color: #60c28e
+  color: #6ad89d;
+}
+#menu-footer-menu li a:hover {
+  color: #fbfff7;
+  transition: 0.2s;
 }
 .three.columns.footer-pad-top {
     padding-top: 25px;
