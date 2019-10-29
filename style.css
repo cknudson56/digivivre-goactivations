@@ -107,6 +107,8 @@ button:hover {
 }
 #site-logo {
 	width: 30%;
+}
+#logo {
   transition: 0.2s;
 }
 #site-nav {
