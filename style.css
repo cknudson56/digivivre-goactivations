@@ -126,7 +126,7 @@ a {
 }
 a.mega-menu-link {
   font-family: 'Gilroy-Light' !important;
-  text-align: center !important;
+/*  text-align: center !important; */
   transition: 0.2s;
 }
 
