@@ -3,7 +3,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns head-margin-top">
       <!--Banner Img Widget-->
       <?php dynamic_sidebar('banner-contact'); ?>
     </div>
