@@ -81,6 +81,10 @@ button:hover {
   background-color: #60c28e;
   color: white;
 }
+a {
+    color: #60c28e;
+    text-decoration: none;
+}
 .head-margin-top {
 	margin-top: 75px !important;
 }
@@ -157,6 +161,12 @@ ul#menu-footer-menu {
 }
 .footer-pad-top {
     padding-top: 25px;
+}
+.widget-footer.widget-right a {
+  color: #fbfff7;
+}
+.widget-footer.widget-right a:hover {
+  color: #6ad89d;
 }
 .footer-end {
   font-size: 1rem;
