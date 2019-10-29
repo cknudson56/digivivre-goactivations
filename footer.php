@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="four columns">
+      <div class="five columns">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
@@ -11,7 +11,7 @@
         <?php dynamic_sidebar('middle-left-footer'); ?>
       </div>
 
-      <div class="three columns footer-pad-top ">
+      <div class="two columns footer-pad-top ">
         <!--Menu Title Widget-->
         <?php dynamic_sidebar('menu-title-footer'); ?>
         <!-- Navigation -->

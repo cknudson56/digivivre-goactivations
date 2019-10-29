@@ -82,7 +82,7 @@ button:hover {
   color: white;
 }
 .head-margin-top {
-	margin-top: 85px !important;
+	margin-top: 75px !important;
 }
 .center-text {
   text-align: center;
@@ -155,7 +155,7 @@ ul#menu-footer-menu {
 #menu-footer-menu li a:hover {
   color: #17c4c4;
 }
-.three.columns.footer-pad-top {
+.footer-pad-top {
     padding-top: 25px;
 }
 .footer-end {
@@ -224,4 +224,15 @@ div#sidebar {
 .widget_text.widget-sidebar button:hover {
   border: 4px solid #085c74 !important;
   background-color: #085c74;
+}
+
+
+
+
+
+/* --- MEDIA QUERIES --- */
+@media (min-width: 550px) {
+  .footer-pad-top {
+    padding-left: 20px;
+  }
 }
