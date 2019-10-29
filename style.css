@@ -88,6 +88,12 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
+#header {
+	position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
 #site-nav {
   width: 70%;
 }

@@ -12,7 +12,7 @@
 
 <header>
   <div class="container">
-    <div class="row header-flex">
+    <div  id="header" class="row header-flex">
       <div id="site-logo">
         <!--If/else for Logo and Site Title-->
         <?php if(get_header_image() == '') { ?>
