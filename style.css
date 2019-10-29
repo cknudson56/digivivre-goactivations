@@ -184,11 +184,8 @@ ul#menu-footer-menu {
   margin:auto;
   margin-bottom:20px;
 }
-.contact-link a {
+a.contact-link {
   color: black !important;
-}
-.contact-link a:hover {
-  color: #60c28e !important;
 }
 /* - Contact Form - */
 .row.form-space {
