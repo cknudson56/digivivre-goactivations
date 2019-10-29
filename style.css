@@ -107,9 +107,11 @@ button:hover {
 }
 #site-logo {
 	width: 30%;
+  transition: 0.2s;
 }
 #site-nav {
   width: 70%;
+  transition: 0.2s;
 }
 
 /* -- FOOTER -- */
