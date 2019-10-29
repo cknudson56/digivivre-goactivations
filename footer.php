@@ -33,7 +33,7 @@
     <div class="row">
       <div class="twelve columns">
         <!--Copyright-->
-        <p>&copy; Site created by DigiVivre 2019</p>
+        <p class="center-text footer-end">&copy; Site created by DigiVivre 2019</p>
       </div>
     </div>
   </div>

@@ -84,6 +84,9 @@ button:hover {
 .head-margin-top {
 	margin-top: 85px !important;
 }
+.center-text {
+  text-align: center;
+}
 
 
 /* -- HEADER -- */
@@ -154,6 +157,10 @@ ul#menu-footer-menu {
 }
 .three.columns.footer-pad-top {
     padding-top: 25px;
+}
+.footer-end {
+  font-size: 1rem;
+  color: #17c4c4;
 }
 
 /* -- CONTACT -- */
