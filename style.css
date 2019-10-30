@@ -414,6 +414,9 @@ div#sidebar {
   .widget-sidebar h3.widget-title {
     padding-top: 10px;
   }
+}
+
+@media (min-width: 650px) {
   .flex-sidebar {
     justify-content: space-between;
   }
