@@ -218,6 +218,18 @@ ul#menu-footer-menu {
     margin-bottom: 50px;
     line-height: 0;
 }
+.widget_text.widget-home.widget-right {
+    padding-left: 20px;
+}
+.title-right-home {
+    display: flex;
+    justify-content: space-between;
+}
+ul.home-list li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 30px;
+}
 
 /* -- CONTACT -- */
 .small-line {
