@@ -217,8 +217,11 @@ label, span.wpcf7-form-control.wpcf7-radio, .span.wpcf7-form-control.wpcf7-check
 span.wpcf7-list-item {
   display: block;
 }
+label.comp {
+    padding-top: 20px;
+}
 input.wpcf7-text {
-    width: 200px;
+    width: 90%;
 }
 input.wpcf7-text, textarea.wpcf7-form-control.wpcf7-textarea {
     border-radius: 0;
@@ -230,6 +233,7 @@ textarea {
 .send {
     text-align: right;
     padding-top: 25px;
+    padding-right: 20px;
 }
 input.wpcf7-form-control.wpcf7-submit {
     border-radius: 0;
@@ -238,6 +242,9 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 1.5rem;
     color: white;
     background-color: #085c74;
+}
+.wpcf7-response-output {
+    border: 0 !important;
 }
 
 /* -- SIDEBAR -- */
