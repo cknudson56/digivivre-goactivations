@@ -217,6 +217,10 @@ span.wpcf7-list-item {
 input.wpcf7-text {
     width: 200px;
 }
+input.wpcf7-text, textarea.wpcf7-form-control.wpcf7-textarea {
+    border-radius: 0;
+    border: 0;
+}
 textarea {
     min-height: 200px !important;
 }
@@ -225,6 +229,13 @@ textarea {
     justify-content: flex-end;
     padding-bottom: 50px;
     padding-right: 50px;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    border-radius: 0;
+    border: 3px white solid;
+    font-family: 'LemonMilk-Regular' !important;
+    font-size: 1.5rem;
+    color: white;
 }
 
 /* -- SIDEBAR -- */
