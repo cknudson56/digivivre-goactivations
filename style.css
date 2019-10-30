@@ -197,7 +197,18 @@ a.contact-link {
     margin: auto;
     padding-top: 25px;
 }
-label, span.wpcf7-form-control.wpcf7-radio {
+.widget-contact.widget-form h3 {
+    text-align: center;
+}
+.form-line {
+  width: 200px;
+  height: 5px;
+  background-color: #aadd73; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+label, span.wpcf7-form-control.wpcf7-radio, .span.wpcf7-form-control.wpcf7-checkbox {
     font-family: 'Gilroy-Light' !important;
 }
 span.wpcf7-list-item {
