@@ -86,7 +86,13 @@ p {
   margin-bottom: 50px;
 }
 .section-margins {
-  margin: 100px 0;
+  margin: 50px 0;
+}
+.top-margin {
+  margin-top: 50px;
+}
+.bottom-margin {
+  margin-bottom: 50px;
 }
 button {
     border: 5px solid #60c28e;
@@ -107,11 +113,11 @@ a {
     color: #60c28e;
     text-decoration: none;
 }
-a {
+a:hover {
     color: #14a6a6;
 }
 .head-margin-top {
-	margin-top: 75px !important;
+	margin-top: 90px !important;
 }
 .center-text {
   text-align: center;
@@ -377,6 +383,15 @@ div#sidebar {
 @media (min-width: 550px) {
   .footer-pad-top {
     padding-left: 20px;
+  }
+  .section-margins {
+    margin: 100px 0;
+  }
+  .top-margin {
+    margin-top: 100px;
+  }
+  .bottom-margin {
+    margin-bottom: 100px;
   }
   form.wpcf7-form {
     padding: 0 5%;
