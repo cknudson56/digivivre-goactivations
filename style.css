@@ -226,7 +226,7 @@ ul#menu-footer-menu {
   background-color: #14a6a6;
 }
 img.wp-post-img {
-  padding: 0 50px;
+  padding: 0 50px !important;
 }
 .widget-home.widget-left.bottom-left-shadow {
     margin-bottom: 50px;
