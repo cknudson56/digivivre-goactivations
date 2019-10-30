@@ -256,6 +256,10 @@ ul.home-list li {
 }
 
 /* -- CONTACT -- */
+.widget-contact.widget-top h3 {
+  font-family: 'LemonMilk-Regular' !important;
+  letter-spacing: 0.5px !important;
+}
 .small-line {
   background-color:#085c74;
   height:3px;
