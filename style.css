@@ -269,7 +269,9 @@ ul.home-list li {
 
 
 /* -- ABOUT -- */
-
+h2.about {
+  width: 300px;
+}
 
 
 /* -- CONTACT -- */
@@ -410,7 +412,7 @@ div#sidebar {
   .home .section-margins {
       margin: 100px 0;
   }
-  .page-template-page-about .four.columns {
+  .page-template-page-about .four.columns.method {
     width: 100% !important;
   }
   form.wpcf7-form {
@@ -445,7 +447,7 @@ div#sidebar {
     padding-top: 0px;
     padding-left: 20px;
   }
-  .page-template-page-about .four.columns {
+  .page-template-page-about .four.columns.method {
     width: 30.6666666667% !important;
   }
   .method-title-width {

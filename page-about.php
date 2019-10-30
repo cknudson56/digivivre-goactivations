@@ -13,7 +13,7 @@
     <div class="row">
       <div class="four columns">
         <div class="title-box"></div>
-        <h2><?php the_title(); ?></h2>
+        <h2 class="about"><?php the_title(); ?></h2>
       </div>
 
       <div class="eight columns">
