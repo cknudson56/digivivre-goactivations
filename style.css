@@ -85,13 +85,16 @@ p {
   margin: 100px 0;
 }
 button {
-    border: 3px solid #60c28e;
+    border: 5px solid #60c28e;
     font-family: 'LemonMilk-Regular' !important;
     color: #60c28e;
     border-radius: 0;
+    padding: 10px 25px !important;
+    height: auto !important;
+    font-size: 2rem;
 }
 button:hover {
-  border: 3px solid #60c28e !important;
+  border: 5px solid #60c28e !important;
   background-color: #60c28e;
   color: white;
 }
