@@ -67,6 +67,10 @@ p {
   float:left;
   margin-right: 20px;
 }
+.title-right {
+  display: flex;
+  justify-content: flex-end;
+}
 .title-box-right {
   width: 25px;
   height: 50px;
