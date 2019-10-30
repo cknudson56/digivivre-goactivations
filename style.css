@@ -217,6 +217,10 @@ ul#menu-footer-menu {
     margin-top: 100px;
     margin-right: 50px;
 }
+.one-half.column {
+    text-align: center;
+    padding: 0 20px;
+}
 .widget-home.widget-left.bottom-left-shadow {
     margin-bottom: 50px;
     line-height: 0;
