@@ -122,6 +122,9 @@ a:hover {
 .center-text {
   text-align: center;
 }
+.right-text {
+  text-align: right;
+}
 /* Box-Shadows for Images */
 .top-right-shadow {
     -webkit-box-shadow: 25px -25px 0px 0px rgba(20,166,166,1);
