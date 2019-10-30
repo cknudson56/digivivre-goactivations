@@ -225,7 +225,7 @@ ul#menu-footer-menu {
 .client-logos {
   background-color: #14a6a6;
 }
-img.wp-post-img {
+#wpls-logo-showcase-slider-1 .wp-post-image, #wpls-logo-showcase-slider-1 .wp-post-image img.wp-post-image {
   padding: 0 50px !important;
 }
 .widget-home.widget-left.bottom-left-shadow {
