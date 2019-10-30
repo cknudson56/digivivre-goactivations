@@ -454,7 +454,7 @@ div#sidebar {
     width: 30.6666666667% !important;
   }
   .image-ultimate-responsive-3 {
-    width: 33%;
+    width: 33% !important;
   }
   .method-title-width {
     height: 120px;
@@ -483,6 +483,6 @@ div#sidebar {
 
 @media (max-width: 800px) {
   .image-ultimate-responsive-3 {
-    width: 100%;
+    width: 100% !important;
   }
 }
