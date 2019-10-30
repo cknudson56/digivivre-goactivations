@@ -218,6 +218,9 @@ ul#menu-footer-menu {
 .widget-home.widget-top h4 {
     font-family: 'Gilroy-Light' !important;
 }
+.home .section-margins {
+    margin: 180px 0;
+}
 .home .six.columns {
   width: 100% !important;
 }
