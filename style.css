@@ -211,11 +211,17 @@ a.contact-link {
 .widget-contact.widget-form h3 {
     text-align: center;
 }
+form.wpcf7-form {
+    padding: 0 10%;
+}
 label, span.wpcf7-form-control.wpcf7-radio, .span.wpcf7-form-control.wpcf7-checkbox, span.wpcf7-list-item {
     font-family: 'Gilroy-Light' !important;
 }
 span.wpcf7-list-item {
   display: block;
+}
+.six.columns.names {
+  max-width: 47% !important;
 }
 label.comp {
     padding-top: 20px;
@@ -288,5 +294,17 @@ div#sidebar {
 @media (min-width: 550px) {
   .footer-pad-top {
     padding-left: 20px;
+  }
+  form.wpcf7-form {
+    padding: 0 5%;
+  }
+  .six.columns.names {
+    max-width: 45% !important;
+  }
+}
+
+@media (min-width: 960px) {
+  form.wpcf7-form {
+    padding: 0 0;
   }
 }
