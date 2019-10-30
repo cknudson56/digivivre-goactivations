@@ -90,8 +90,9 @@ p {
 }
 button {
     border: 5px solid #60c28e;
+    background-color: #60c28e;
+    color: white;
     font-family: 'LemonMilk-Regular' !important;
-    color: #60c28e;
     border-radius: 0;
     padding: 10px 25px !important;
     height: auto !important;
@@ -99,8 +100,8 @@ button {
 }
 button:hover {
   border: 5px solid #60c28e !important;
-  background-color: #60c28e;
-  color: white;
+  background-color: white;
+  color: #60c28e;
 }
 a {
     color: #60c28e;
