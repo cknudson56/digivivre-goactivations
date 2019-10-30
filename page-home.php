@@ -35,7 +35,7 @@
   </div>
 </div>
 
-  <div class="row">
+  <div class="row client-logos">
     <!--Work Brands Slider Widget (Need to ask Dawne about brands and case studies)-->
     <?php dynamic_sidebar('brands-home'); ?>
   </div>

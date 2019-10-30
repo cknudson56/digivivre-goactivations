@@ -222,6 +222,12 @@ ul#menu-footer-menu {
     text-align: center;
     padding: 0 20px;
 }
+.client-logos {
+  background-color: #14a6a6;
+}
+img.wp-post-img {
+  padding: 0 50px;
+}
 .widget-home.widget-left.bottom-left-shadow {
     margin-bottom: 50px;
     line-height: 0;
