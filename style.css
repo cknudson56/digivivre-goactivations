@@ -205,6 +205,16 @@ ul#menu-footer-menu {
   color: #14a6a6;
 }
 
+/* -- HOME -- */
+.widget-home.widget-right.top-right-shadow {
+    margin-top: 50px;
+    margin-right: 25px;
+}
+.widget-home.widget-left.bottom-left-shadow {
+    margin-bottom: 50px;
+    line-height: 0;
+}
+
 /* -- CONTACT -- */
 .small-line {
   background-color:#085c74;
