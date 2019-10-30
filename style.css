@@ -453,6 +453,9 @@ div#sidebar {
   .page-template-page-about .four.columns.method {
     width: 30.6666666667% !important;
   }
+  .image-ultimate-responsive-3 {
+    width: 33%;
+  }
   .method-title-width {
     height: 120px;
   }
@@ -474,5 +477,12 @@ div#sidebar {
   }
   form.wpcf7-form {
     padding: 0 0;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .image-ultimate-responsive-3 {
+    width: 100%;
   }
 }
