@@ -231,7 +231,7 @@ ul#menu-footer-menu {
     font-family: 'Gilroy-Light' !important;
 }
 .home .section-margins {
-    margin: 180px 0;
+    margin: 50px 0;
 }
 .home .six.columns {
   width: 100% !important;
@@ -399,6 +399,9 @@ div#sidebar {
   .bottom-margin {
     margin-bottom: 100px !important;
   }
+  .home .section-margins {
+      margin: 100px 0;
+  }
   form.wpcf7-form {
     padding: 0 5%;
   }
@@ -425,6 +428,9 @@ div#sidebar {
 }
 
 @media (min-width: 960px) {
+  .home .section-margins {
+      margin: 180px 0;
+  }
   .home .six.columns.thirty, .home .six.columns.sixty {
     width: 48% !important;
   }
