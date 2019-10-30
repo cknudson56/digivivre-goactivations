@@ -235,8 +235,8 @@ input.wpcf7-form-control.wpcf7-submit {
     border: 3px #085c74 solid;
     font-family: 'LemonMilk-Regular' !important;
     font-size: 1.5rem;
-    color: #085c74;
-    background-color: #14a6a6;
+    color: white;
+    background-color: #085c74;
 }
 
 /* -- SIDEBAR -- */
