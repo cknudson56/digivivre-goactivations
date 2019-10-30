@@ -359,11 +359,14 @@ div#sidebar {
 }
 .flex-sidebar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 10%;
   flex-wrap: wrap;
   width: 100%;
   max-width: 960px;
+}
+.widget-sidebar h3.widget-title {
+  font-size: 2.7rem;
 }
 .widget_text.widget-sidebar {
     padding-bottom: 25px;
@@ -408,6 +411,12 @@ div#sidebar {
   .six.columns.names {
     max-width: 50% !important;
   }
+  .widget-sidebar h3.widget-title {
+    padding-top: 10px;
+  }
+  .flex-sidebar {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 800px) {
@@ -424,6 +433,9 @@ div#sidebar {
   .widget_text.widget-home.widget-right {
     padding-top: 0px;
     padding-left: 20px;
+  }
+  .widget-sidebar h3.widget-title {
+    font-size: 3.6rem;
   }
 }
 
