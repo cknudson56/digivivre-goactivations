@@ -211,6 +211,12 @@ ul#menu-footer-menu {
 }
 
 /* -- HOME -- */
+.widget-home.widget-top h2 {
+    font-family: 'LemonMilk-Regular' !important;
+}
+.widget-home.widget-top h4 {
+    font-family: 'Gilroy-Light' !important;
+}
 .home .six.columns {
   width: 100% !important;
 }
