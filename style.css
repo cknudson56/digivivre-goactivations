@@ -108,6 +108,18 @@ a {
 .center-text {
   text-align: center;
 }
+/* Box-Shadows for Images */
+.top-right-shadow {
+    -webkit-box-shadow: 25px -25px 0px 0px rgba(20,166,166,1);
+    -moz-box-shadow: 25px -25px 0px 0px rgba(20,166,166,1);
+  box-shadow: 25px -25px 0px 0px rgba(20,166,166,1);
+}
+.bottom-left-shadow {
+    -webkit-box-shadow: -25px 25px 0px 0px rgba(170,221,115,1);
+    -moz-box-shadow: -25px 25px 0px 0px rgba(170,221,115,1);
+  box-shadow: -25px 25px 0px 0px rgba(170,221,115,1);
+}
+
 
 
 /* -- HEADER -- */

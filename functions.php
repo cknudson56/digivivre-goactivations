@@ -39,7 +39,7 @@ function blank_widgets_init() {
     'name'          => ('Right Img Home'),
     'id'            => 'right-img-home',
     'description'   => 'Right img widget area in Home Page',
-    'before_widget' => '<div class="widget-home widget-right">',
+    'before_widget' => '<div class="widget-home widget-right top-right-shadow">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
@@ -79,7 +79,7 @@ function blank_widgets_init() {
     'name'          => ('Left Img Home'),
     'id'            => 'left-img-home',
     'description'   => 'Left img widget area in Home Page',
-    'before_widget' => '<div class="widget-home widget-left">',
+    'before_widget' => '<div class="widget-home widget-left bottom-left-shadow">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
