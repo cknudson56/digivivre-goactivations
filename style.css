@@ -210,7 +210,7 @@ ul#menu-footer-menu {
 }
 
 /* -- HOME -- */
-.home.six.columns {
+.home .six.columns {
   width: 100% !important;
 }
 .widget-home.widget-right.top-right-shadow {
@@ -361,8 +361,17 @@ div#sidebar {
   }
 }
 
+@media (min-width: 800px) {
+  .home .six.columns.thirty {
+    width: 30% !important;
+  }
+  .home .six.columns.sixty {
+    width: 70% !important;
+  }
+}
+
 @media (min-width: 960px) {
-  .home.six.columns {
+  .home .six.columns.thirty, .home .six.columns.sixty {
     width: 48% !important;
   }
   form.wpcf7-form {

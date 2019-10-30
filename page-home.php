@@ -10,11 +10,11 @@
   </div>
 
   <div class="row section-margins">
-    <div class="six columns">
+    <div class="six columns sixty">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="six columns">
+    <div class="six columns thirty">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
@@ -42,11 +42,11 @@
 
 <div class="container">
   <div class="row section-margins">
-    <div class="six columns">
+    <div class="six columns thirty">
       <!--Img Widget-->
       <?php dynamic_sidebar('left-img-home'); ?>
     </div>
-    <div class="six columns">
+    <div class="six columns sixty">
       <!-- Contact Brief Text Widget-->
       <?php dynamic_sidebar('contact-brief-home'); ?>
     </div>
