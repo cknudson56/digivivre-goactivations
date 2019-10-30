@@ -125,8 +125,8 @@ a:hover {
 .right-text {
   text-align: right;
 }
-.right-title-paragraph-padding {
-  padding-top: 10px;
+.top-padding-paragraph {
+  padding-top: 25px;
 }
 /* Box-Shadows for Images */
 .top-right-shadow {
