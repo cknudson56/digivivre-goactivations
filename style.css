@@ -189,7 +189,7 @@ a.contact-link {
 }
 /* - Contact Form - */
 .row.form-space {
-    background-color: #14a6a6;
+    background-color: rgba(20, 166, 166, 0.5);
 }
 .widget-contact.widget-form {
     max-width: 960px;
