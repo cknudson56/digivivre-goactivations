@@ -213,7 +213,7 @@ ul#menu-footer-menu {
 /* -- HOME -- */
 .widget-home.widget-top h2 {
     font-family: 'LemonMilk-Regular' !important;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.5px;
 }
 .widget-home.widget-top h4 {
     font-family: 'Gilroy-Light' !important;
