@@ -272,6 +272,9 @@ ul.home-list li {
 h2.about {
   width: 300px;
 }
+.image-ultimate-hover-1 .iheu-info {
+  background-color: #14a6a6 !important;
+}
 
 
 /* -- CONTACT -- */
