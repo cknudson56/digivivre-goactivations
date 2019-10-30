@@ -267,6 +267,13 @@ ul.home-list li {
     margin-left: 30px;
 }
 
+
+/* -- ABOUT -- */
+.method-title-width {
+  max-width: 270px;
+}
+
+
 /* -- CONTACT -- */
 .widget-contact.widget-top h3 {
   font-family: 'LemonMilk-Regular' !important;
@@ -405,6 +412,9 @@ div#sidebar {
   .home .section-margins {
       margin: 100px 0;
   }
+  .page-template-page-about .four.columns {
+    width: 100% !important;
+  }
   form.wpcf7-form {
     padding: 0 5%;
   }
@@ -437,6 +447,12 @@ div#sidebar {
     padding-top: 0px;
     padding-left: 20px;
   }
+  .page-template-page-about .four.columns {
+    width: 30.6666666667% !important;
+  }
+  .method-title-width {
+    max-width: 195px;
+  }
   .widget-sidebar h3.widget-title {
     font-size: 3.6rem;
   }
@@ -448,6 +464,9 @@ div#sidebar {
   }
   .home .six.columns.thirty, .home .six.columns.sixty {
     width: 48% !important;
+  }
+  .method-title-width {
+    max-width: 270px;
   }
   form.wpcf7-form {
     padding: 0 0;
