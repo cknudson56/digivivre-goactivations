@@ -453,9 +453,6 @@ div#sidebar {
   .page-template-page-about .four.columns.method {
     width: 30.6666666667% !important;
   }
-  .image-ultimate-responsive-3 {
-    width: 33% !important;
-  }
   .method-title-width {
     height: 120px;
   }
@@ -481,7 +478,7 @@ div#sidebar {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .image-ultimate-responsive-3 {
     width: 100% !important;
   }
