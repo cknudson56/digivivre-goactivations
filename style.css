@@ -67,6 +67,12 @@ p {
   float:left;
   margin-right: 20px;
 }
+.title-box-right {
+  width: 25px;
+  height: 50px;
+  background-color: #aadd73;
+  margin-left: 20px;
+}
 .center-title-line {
   width: 200px;
   height: 5px;
