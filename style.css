@@ -210,6 +210,9 @@ ul#menu-footer-menu {
 }
 
 /* -- HOME -- */
+.home.six.columns {
+  width: 100% !important;
+}
 .widget-home.widget-right.top-right-shadow {
     margin-top: 50px;
     margin-right: 25px;
@@ -359,6 +362,9 @@ div#sidebar {
 }
 
 @media (min-width: 960px) {
+  .home.six.columns {
+    width: 48% !important;
+  }
   form.wpcf7-form {
     padding: 0 0;
   }
