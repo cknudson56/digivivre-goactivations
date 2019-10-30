@@ -212,7 +212,7 @@ a.contact-link {
     text-align: center;
 }
 form.wpcf7-form {
-    padding: 0 10%;
+    padding: 0 3%;
 }
 label, span.wpcf7-form-control.wpcf7-radio, .span.wpcf7-form-control.wpcf7-checkbox, span.wpcf7-list-item {
     font-family: 'Gilroy-Light' !important;
@@ -225,6 +225,9 @@ span.wpcf7-list-item {
 }
 label.comp {
     padding-top: 20px;
+}
+span.wpcf7-list-item.first {
+    margin-top: -25px;
 }
 input.wpcf7-text {
     width: 90%;
