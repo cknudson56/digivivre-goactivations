@@ -241,6 +241,7 @@ ul#menu-footer-menu {
 .widget-home.widget-right.top-right-shadow {
     margin-top: 100px;
     margin-right: 50px;
+    margin-left: 25px;
 }
 .one-half.column {
     text-align: center;
@@ -255,6 +256,8 @@ ul#menu-footer-menu {
 .widget-home.widget-left.bottom-left-shadow {
     margin-bottom: 50px;
     line-height: 0;
+    margin-right: 20px;
+    margin-left: 25px;
 }
 .widget_text.widget-home.widget-right {
     padding-top: 50px;
