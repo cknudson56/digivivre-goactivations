@@ -86,7 +86,7 @@ p {
   margin-bottom: 50px;
 }
 .section-margins {
-  margin: 50px 0;
+  margin: 80px 0;
 }
 .top-margin {
   margin-top: 50px !important;
@@ -233,7 +233,7 @@ ul#menu-footer-menu {
     font-family: 'Gilroy-Light' !important;
 }
 .home .section-margins {
-    margin: 100px 0;
+    margin: 80px 0;
 }
 .home .six.columns {
   width: 100% !important;
@@ -413,6 +413,9 @@ div#sidebar {
   }
   .section-margins {
     margin: 100px 0;
+  }
+  .home .section-margins {
+      margin: 100px 0;
   }
   .top-margin {
     margin-top: 100px !important;
