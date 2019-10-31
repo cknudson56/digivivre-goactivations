@@ -179,6 +179,13 @@ a.mega-menu-link {
 button.mega-toggle-animated.mega-toggle-animated-slider:hover {
   border: 0 !important;
 }
+.widget-top h2, .widget-top h3 {
+    font-family: 'LemonMilk-Light' !important;
+    letter-spacing: 0.5px !important;
+}
+.widget-top h4 {
+    font-family: 'Gilroy-Light' !important;
+}
 
 
 /* -- FOOTER -- */
@@ -226,13 +233,6 @@ ul#menu-footer-menu {
 
 
 /* -- HOME -- */
-.widget-home.widget-top h2 {
-    font-family: 'LemonMilk-Regular' !important;
-    letter-spacing: 0.5px !important;
-}
-.widget-home.widget-top h4 {
-    font-family: 'Gilroy-Light' !important;
-}
 .home .section-margins {
     margin: 80px 0;
 }
@@ -296,10 +296,6 @@ h2.about {
 
 
 /* -- CONTACT -- */
-.widget-contact.widget-top h3 {
-  font-family: 'LemonMilk-Regular' !important;
-  letter-spacing: 0.5px !important;
-}
 .small-line {
   background-color:#085c74;
   height:3px;
@@ -420,6 +416,9 @@ div#sidebar {
 @media (min-width: 550px) {
   .footer-pad-top {
     padding-left: 20px;
+  }
+  .widget-top h2, .widget-top h3 {
+      font-family: 'LemonMilk-Regular' !important;
   }
   .section-margins {
     margin: 100px 0;
