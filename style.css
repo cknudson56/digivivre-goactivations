@@ -233,7 +233,7 @@ ul#menu-footer-menu {
     font-family: 'Gilroy-Light' !important;
 }
 .home .section-margins {
-    margin: 50px 0;
+    margin: 100px 0;
 }
 .home .six.columns {
   width: 100% !important;
@@ -416,9 +416,6 @@ div#sidebar {
   }
   .bottom-margin {
     margin-bottom: 100px !important;
-  }
-  .home .section-margins {
-      margin: 100px 0;
   }
   .page-template-page-about .four.columns.method {
     width: 100% !important;
