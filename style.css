@@ -178,6 +178,9 @@ a.mega-menu-link {
 /*  text-align: center !important; */
   transition: 0.2s;
 }
+button.mega-toggle-animated:hover {
+  border: 0 !important;
+}
 
 /* -- FOOTER -- */
 /* Footer Colors
