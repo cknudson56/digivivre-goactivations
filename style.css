@@ -285,6 +285,15 @@ h2.about {
 }
 
 
+/* -- SERVICE -- */
+
+
+/* -- WORK -- */
+.image-ultimate-hover-2.left_to_right .iheu-info {
+  background: rgba(20, 166, 166, 0.9) !important;
+}
+
+
 /* -- CONTACT -- */
 .widget-contact.widget-top h3 {
   font-family: 'LemonMilk-Regular' !important;
