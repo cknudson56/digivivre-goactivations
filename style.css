@@ -290,7 +290,9 @@ h2.about {
 
 
 /* -- SERVICE -- */
-
+.service-bullets {
+  list-style-type: square;
+}
 
 /* -- WORK -- */
 .image-ultimate-hover-2.left_to_right .iheu-info {
@@ -437,6 +439,9 @@ div#sidebar {
   }
   .page-template-page-about .four.columns.method {
     width: 100% !important;
+  }
+  .service-bullets {
+    list-style-type: none;
   }
   form.wpcf7-form {
     padding: 0 5%;
