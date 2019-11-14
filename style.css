@@ -294,6 +294,9 @@ h2.about {
   list-style-type: square;
   padding-left: 15px;
 }
+.page-template-page-services ul {
+    margin-bottom: 0rem !important;
+}
 
 /* -- WORK -- */
 .image-ultimate-hover-2.left_to_right .iheu-info {
