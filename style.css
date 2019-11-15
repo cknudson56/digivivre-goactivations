@@ -362,7 +362,7 @@ span.wpcf7-list-item {
     justify-content: space-between;
 }
 .six.columns.names {
-  max-width: 45% !important;
+  padding-top: 15px;
 }
 label.comp {
     padding-top: 20px;
