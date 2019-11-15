@@ -190,6 +190,9 @@ a.mega-menu-link {
 /*  text-align: center !important; */
   transition: 0.2s;
 }
+button.mega-toggle-animated.mega-toggle-animated-slider {
+    box-shadow: 0 0;
+}
 button.mega-toggle-animated.mega-toggle-animated-slider:hover {
   border: 0 !important;
 }
