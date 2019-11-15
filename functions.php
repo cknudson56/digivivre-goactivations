@@ -247,10 +247,10 @@ add_action('init', 'custom_menus');
 //Logo in the header
 $custom_image_header = array(
   'flex-width' => true,
-  'width' => 260,
+  'width' => 200,
   //'width' => 150,
   'flex-height' => true,
-  'height' => 100,
+  'height' => 90,
   //'height' => 90,
   //'uploads' => true,
   'header-selector' => '.site-title a',
