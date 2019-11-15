@@ -549,7 +549,7 @@ div#sidebar {
 	.one.columns {
 		width: 100%;
 	}
-	.footer .five.columns {
+	footer .five.columns {
 		width: 100% !important;
 		padding-left: 25px;
 		padding-right: 25px;
