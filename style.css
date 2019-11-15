@@ -541,17 +541,14 @@ div#sidebar {
 }
 @media (max-width: 699px) {
 	.three.columns.footer-pad-top {
-    width: 100%;
-    padding-left: 0;
-    margin-left: 0;
-    text-align: center;
+    width: 49%;
+    text-align: left;
 	}
-	.sfsi_widget {
-    display: flex;
-    justify-content: center;
+	.one.columns {
+		width: 100%;
 	}
 	.footer .five.columns {
-		width: 100%
+		width: 100%;
 		padding-left: 25px;
 		padding-right: 25px;
 	}
@@ -567,5 +564,18 @@ div#sidebar {
 	}
 	.home .title-box, .home .title-box-right {
 		height: 30px;
+	}
+	.three.columns.footer-pad-top {
+		width: 100%;
+		padding-left: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+	.sfsi_widget {
+		display: flex;
+		justify-content: center;
+	}
+	.norm_row {
+		text-align: center !important;
 	}
 }
