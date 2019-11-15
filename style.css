@@ -539,6 +539,28 @@ div#sidebar {
     width: 100% !important;
   }
 }
+@media (max-width: 699px) {
+	.three.columns.footer-pad-top {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+	}
+	.sfsi_widget {
+    display: flex;
+    justify-content: center;
+	}
+	.footer .five.columns {
+		width: 100%
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	footer img {
+    margin: auto;
+    max-width: 300px !important;
+    display: block;
+	}
+}
 @media (max-width: 549px) {
 	.home h3 {
 		font-size: 2.4rem;
