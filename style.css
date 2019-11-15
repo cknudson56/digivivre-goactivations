@@ -95,16 +95,16 @@ p {
   margin-bottom: 50px !important;
 }
 button {
-    border: 5px solid #60c28e;
-    background-color: #60c28e;
-    color: white;
-    font-family: 'LemonMilk-Regular' !important;
-    border-radius: 0;
-    padding: 10px 25px !important;
-    height: auto !important;
-    font-size: 2rem;
-			-webkit-box-shadow: 1px 1px 1px 0px rgba(222,222,222,0.5);
-			-moz-box-shadow: 1px 1px 1px 0px rgba(222,222,222,0.5);
+  border: 5px solid #60c28e;
+  background-color: #60c28e;
+  color: white;
+  font-family: 'LemonMilk-Regular' !important;
+  border-radius: 0;
+  padding: 10px 25px !important;
+  height: auto !important;
+  font-size: 2rem;
+		-webkit-box-shadow: 1px 1px 1px 0px rgba(222,222,222,0.5);
+		-moz-box-shadow: 1px 1px 1px 0px rgba(222,222,222,0.5);
 	box-shadow: 1px 1px 1px 0px rgba(222,222,222,0.5);
 }
 button:hover {
@@ -253,6 +253,10 @@ ul#menu-footer-menu {
     margin-top: 100px;
     margin-right: 50px;
     margin-left: 25px;
+}
+.home button {
+	margin: auto;
+	display: block;
 }
 .one-half.column {
     text-align: center;
@@ -493,6 +497,9 @@ div#sidebar {
   .home .six.columns.sixty {
     width: 60% !important;
   }
+	.home button {
+		display: inline;
+	}
   .widget-home.widget-right.top-right-shadow {
       margin-top: 50px;
       margin-right: 25px;
