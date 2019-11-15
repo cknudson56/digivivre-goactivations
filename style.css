@@ -446,9 +446,6 @@ div#sidebar {
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 550px) {
-  .footer-pad-top {
-    padding-left: 20px;
-  }
   .widget-top h2, .widget-top h3 {
       font-family: 'LemonMilk-Regular' !important;
   }
@@ -543,6 +540,9 @@ div#sidebar {
   form.wpcf7-form {
     padding: 0 0;
   }
+	.footer-pad-top {
+		padding-left: 20px;
+	}
 }
 
 
