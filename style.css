@@ -243,6 +243,9 @@ ul#menu-footer-menu {
 footer .five.columns {
 	padding-top: 35px;
 }
+footer img {
+	max-width: 300px !important;
+}
 
 
 /* -- HOME -- */
@@ -565,7 +568,6 @@ div#sidebar {
 	}
 	footer img {
     margin: auto;
-    max-width: 300px !important;
     display: block;
 	}
 }
