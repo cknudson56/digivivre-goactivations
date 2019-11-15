@@ -240,6 +240,9 @@ ul#menu-footer-menu {
   font-size: 1rem;
   color: #14a6a6;
 }
+footer .five.columns {
+	padding-top: 35px;
+}
 
 
 /* -- HOME -- */
@@ -474,6 +477,12 @@ div#sidebar {
   .flex-sidebar {
     justify-content: space-between;
   }
+}
+
+@media (min-width: 700px) {
+	.footer-pad-top {
+    padding-top: 35px;
+	}
 }
 
 @media (min-width: 750px) {
