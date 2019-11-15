@@ -542,7 +542,7 @@ div#sidebar {
 	.home h3 {
 		font-size: 2.4rem;
 	}
-	.title-box, .title-box-right {
+	.home .title-box, .home .title-box-right {
 		height: 30px;
 	}
 }
