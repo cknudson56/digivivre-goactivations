@@ -538,3 +538,11 @@ div#sidebar {
     width: 100% !important;
   }
 }
+@media (max-width: 549px) {
+	.home h3 {
+		font-size: 2.4rem;
+	}
+	.title-box, .title-box-right {
+		height: 30px;
+	}
+}
