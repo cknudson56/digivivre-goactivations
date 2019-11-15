@@ -360,6 +360,7 @@ span.wpcf7-list-item {
 .row.name {
     display: flex;
     justify-content: space-between;
+		flex-wrap: wrap;
 }
 .six.columns.names {
   padding-top: 15px;
