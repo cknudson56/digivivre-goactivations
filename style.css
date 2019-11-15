@@ -387,6 +387,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 1.5rem;
     color: white;
     background-color: #085c74;
+		height: auto;
 }
 .wpcf7-response-output {
     border: 0 !important;
