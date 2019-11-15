@@ -173,6 +173,7 @@ a:hover {
 }
 #logo {
   transition: 0.2s;
+	max-width: 200px;
 }
 #site-nav {
   width: 70%;
