@@ -7,7 +7,7 @@
   </div>
 
   <div class="row section-margins">
-    <div class="twelve columns">
+    <div class="twelve columns single">
       <?php
         if(have_posts()){
           while(have_posts()){
@@ -15,10 +15,10 @@
             <?php the_post_thumbnail(); ?>
             <div class="title-box"></div>
             <h2><?php the_title(); ?></h2>
-            <?php the_content();
+            <div class="single-post-img"><?php the_content();
           }
         }
-      ?>
+      ?></div>
     </div>
   </div>
 </div>

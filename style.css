@@ -345,6 +345,15 @@ h2.about {
 }
 
 
+/* --- Single --- */
+.single-post-img {
+	width: 100%;
+	max-width: 1025px;
+	height: auto;
+	margin: auto;
+}
+
+
 /* -- CONTACT -- */
 .small-line {
   background-color:#085c74;
