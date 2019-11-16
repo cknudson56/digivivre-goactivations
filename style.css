@@ -347,10 +347,8 @@ h2.about {
 
 /* --- Single --- */
 .single-post-img img {
-	width: 100%;
-	max-width: 1025px;
+	max-width: 100%;
 	height: auto;
-	margin: auto;
 }
 
 
