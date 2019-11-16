@@ -340,6 +340,9 @@ h2.about {
 .blog-flex h2 a:hover {
 	color: #14a6a6;
 }
+.blog-flex p {
+	margin: 0 !important;
+}
 
 
 /* -- CONTACT -- */
