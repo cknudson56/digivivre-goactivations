@@ -337,6 +337,9 @@ h2.about {
 .blog-flex h2 a {
 	color: #085c74;
 }
+.blog-flex h2 a:hover {
+	color: #14a6a6;
+}
 
 
 /* -- CONTACT -- */
