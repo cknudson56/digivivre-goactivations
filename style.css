@@ -149,6 +149,9 @@ a:hover {
 .widget-top h4 {
     font-family: 'Gilroy-Light' !important;
 }
+.n2-ss-slider .n2-ss-slide-background, .n2-ss-slider .n2-ss-slide-background * {
+    background-attachment: fixed;
+}
 
 
 /* -- HEADER -- */
