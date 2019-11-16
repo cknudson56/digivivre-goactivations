@@ -3,6 +3,8 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns head-margin-top">
+      <!--Banner Img Widget-->
+      <?php dynamic_sidebar('banner-blog'); ?>
     </div>
   </div>
 
@@ -12,10 +14,12 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
-            <div class="title-box"></div>
-            <h2><?php the_title(); ?></h2>
-            <?php the_content();
-          }
+            <h2 class="center-text section-margins"><?php the_title(); ?></h2>
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <p>Category: <?php the_category(); ?></p>
+            <?php the_post_thumbnail('medium'); ?>
+            <p><?php the_excerpt(); ?></p>
+          <?php }
         }
       ?>
     </div>
@@ -27,5 +31,6 @@
     <?php get_sidebar(); ?>
   </div>
 </div>
+
 
 <?php get_footer(); ?>
