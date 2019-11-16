@@ -331,6 +331,13 @@ h2.about {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.blog-flex h2 {
+	font-size: 3rem;
+}
+.blog-flex h2 a {
+	color: #085c74;
+}
+
 
 /* -- CONTACT -- */
 .small-line {
