@@ -350,6 +350,10 @@ h2.about {
 	max-width: 100%;
 	height: auto;
 }
+.post-feature img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* -- CONTACT -- */
