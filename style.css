@@ -354,6 +354,14 @@ h2.about {
   max-width: 100%;
   height: auto;
 }
+.row.pagination-flex {
+    display: flex;
+    justify-content: space-between;
+		width: 100%;
+}
+.pagination-single {
+    width: 50%;
+}
 
 
 /* -- CONTACT -- */

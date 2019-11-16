@@ -33,13 +33,13 @@
     </div>
   </div>
 
-  <div class="row pagination-flex">
+  <div class="row pagination-flex bottom-margin">
     <div class="pagination-single">
       <?php previous_post_link('%link', '< Previous Post'); ?>
     </div>
 
-    <div class="pagination-single">
-      <?php next_post_link('%link', 'Next Post >'); ?>
+    <div class="pagination-single right-text">
+      <?php next_post_link('%link', 'Next Post <i class="fas fa-angle-right"></i>'); ?>
     </div>
   </div>
 </div>
