@@ -35,7 +35,7 @@
 
   <div class="row pagination-flex bottom-margin">
     <div class="pagination-single">
-      <?php previous_post_link('%link', '< Previous Post'); ?>
+      <?php previous_post_link('%link', '<i class="fas fa-angle-left"></i> Previous Post'); ?>
     </div>
 
     <div class="pagination-single right-text">
