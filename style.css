@@ -346,7 +346,7 @@ h2.about {
 
 
 /* --- Single --- */
-.single-post-img {
+.single-post-img img {
 	width: 100%;
 	max-width: 1025px;
 	height: auto;
