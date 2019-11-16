@@ -325,6 +325,13 @@ h2.about {
 }
 
 
+/* --- BLOG --- */
+.blog-flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 /* -- CONTACT -- */
 .small-line {
   background-color:#085c74;
