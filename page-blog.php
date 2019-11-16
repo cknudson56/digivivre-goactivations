@@ -27,11 +27,6 @@
   </div>
 </div>
 
-<div id="sidebar">
-  <div class="flex-sidebar">
-    <?php get_sidebar(); ?>
-  </div>
-</div>
 
 
 <?php get_footer(); ?>
