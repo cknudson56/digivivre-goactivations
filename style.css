@@ -153,8 +153,13 @@ a:hover {
     background-attachment: fixed;
 }
 .n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image {
-    background-size: contain;
-    background-position: inherit;
+    background-position: inherit !important;
+}
+.page-template-page-about .n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image,
+.page-template-page-services .n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image
+.blog .n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image,
+.page-template-page-contact .n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image {
+    background-size: contain !important;
 }
 
 
