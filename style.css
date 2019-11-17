@@ -152,6 +152,10 @@ a:hover {
 .n2-ss-slider .n2-ss-slide-background, .n2-ss-slider .n2-ss-slide-background * {
     background-attachment: fixed;
 }
+.n2-ss-slider [data-mode=blurfit] .n2-ss-slide-background-image, .n2-ss-slider [data-mode=fill] .n2-ss-slide-background-image {
+    background-size: contain;
+    background-position: inherit;
+}
 
 
 /* -- HEADER -- */
