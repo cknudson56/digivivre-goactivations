@@ -261,4 +261,13 @@ add_theme_support('custom-header', $custom_image_header);
 //Adds featured imgs to posts
   add_theme_support('post-thumbnails');
 
+//Removes Dashicons
+function wpdocs_dequeue_dashicon() {
+  if (current_user_can( 'update_core' )) {
+    return;
+    }
+  wp_deregister_style('dashicons');
+}
+add_action( 'wp_enqueue_scripts', 'wpdocs_dequeue_dashicon' );
+
 ?>
