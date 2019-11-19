@@ -23,7 +23,7 @@ font-family: 'Gilroy-Light' !important;
 font-family: 'LemonMilk-Bold' !important;
 font-family: 'LemonMilk-Light' !important;
 font-family: 'LemonMilk-Regular' !important;
-font-family: 'Open Sans', sans-serif !important;
+font-family: 'Open Sans', !important;
 */
 
 
@@ -48,6 +48,10 @@ font-family: 'Open Sans', sans-serif !important;
 	font-family: 'LemonMilk-Regular';
 	src: url('fonts/LemonMilk-Regular.otf') format('opentype');
 }
+@font-face {
+	font-family: 'Open Sans';
+	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
 h1, h2, h3 {
   font-family: 'LemonMilk-Light' !important;
   letter-spacing: 0.6px;
@@ -58,7 +62,7 @@ h4, h5, h6 {
   color: #14a6a6;
 }
 p {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', !important;
 }
 .title-box {
   width: 25px;
@@ -230,7 +234,7 @@ footer p {
     color: #17c4c4;
 }
 ul#menu-footer-menu {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans', !important;
     list-style-type: none;
 }
 #menu-footer-menu li a {
