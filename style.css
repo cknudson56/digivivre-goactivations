@@ -164,8 +164,7 @@ a:hover {
 	background-position: inherit !important;
 }
 .home .n2-ss-slider .n2-ss-slide-background-image {
-	background-size: contain !important;
-	background-repeat: repeat;
+	background-position: top !important;
 }
 
 
