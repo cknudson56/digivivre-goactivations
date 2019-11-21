@@ -132,6 +132,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
+  //Work: Banner Widget
+  register_sidebar(array(
+    'name'          => ('Banner Work'),
+    'id'            => 'banner-work',
+    'description'   => 'Top banner widget area in Work page',
+    'before_widget' => '<div class="widget-work widget-top">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>'
+  ));
   //Blog: Banner Widget
   register_sidebar(array(
     'name'          => ('Banner Blog'),
