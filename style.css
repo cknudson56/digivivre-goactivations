@@ -674,4 +674,7 @@ div#sidebar {
 	.norm_row {
 		text-align: center !important;
 	}
+	.blog-flex .six.columns {
+    margin-bottom: 30px;
+	}
 }
