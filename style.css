@@ -677,4 +677,22 @@ div#sidebar {
 	.blog-flex .six.columns {
     margin-bottom: 30px;
 	}
+	/*Animate It*/
+	.duration1 {
+	    -webkit-animation-duration: 0s !important;
+	    -moz-animation-duration: 0s !important;
+	    -ms-animation-duration: 0s !important;
+	    -o-animation-duration: 0s !important;
+    animation-duration: 0s !important;
+	}
+	.animated {
+	    -webkit-animation-duration: 0s;
+	    -moz-animation-duration: 0s;
+	    -ms-animation-duration: 0s;
+	    -o-animation-duration: 0s;
+    animation-duration: 0s;
+	}
+	.edsanimate-sis-hidden, .eds-scroll-hidden {
+    opacity: 1 !important;
+	}
 }
